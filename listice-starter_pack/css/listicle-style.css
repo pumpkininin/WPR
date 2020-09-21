@@ -4,12 +4,15 @@ header{
     height: 500px;
     background-repeat: no-repeat;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    background-position: top;
 }
 h1{
     font-family: 'Robot Slab',serif;
     color: white;
     font-size: 36px;
     font-weight: normal;
+    padding: 300px;
     text-align: center;
 }
