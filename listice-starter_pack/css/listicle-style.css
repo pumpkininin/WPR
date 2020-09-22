@@ -1,18 +1,56 @@
 header{
-    background-image: url("../images/header.jpg");
-    background-size: cover;
+    background-image: url(../images/header.jpg);
     height: 500px;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-repeat:no-repeat;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-position: top;
+    justify-content: center ;
+
+    
+    
+    
 }
 h1{
-    font-family: 'Robot Slab',serif;
+    
+    justify-content: center;
     color: white;
-    font-size: 36px;
-    font-weight: normal;
-    padding: 300px;
+    font-family: "Robot Slab";
+    width:780px;
+    font-size: 36opx;
     text-align: center;
+    
+    
+    
+}
+#author{
+    
+    
+    justify-items: center;
+    margin-top:-50px;
+    height:150px;
+    
+    text-align: center;
+}
+.avt{
+    
+    border-radius: 100%;
+    margin-top: -50px;
+    
+}
+.name{
+    font-family:'Source Sans Pro';
+    font-size:18px;
+    font-weight:bold;
+    margin:0;
+}
+.update-time{
+    font-style: italic;
+    margin:0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+    
+    display: inline;
+
 }
