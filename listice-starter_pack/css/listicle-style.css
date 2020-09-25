@@ -24,14 +24,14 @@ h1{
     
     
 }
-#profile {
+#author {
     display:flex;
     align-items: center;
     flex-direction: column;
     width:100%;
   }
   
-  #profile-pic {
+  #avt {
     background-image: url("../images/vrk.png");
     background-size: cover;
     background-position:center;
@@ -42,7 +42,7 @@ h1{
     border: 1px solid white;
   }
   
-  #profile-text {
+  #author-text {
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 18px;
