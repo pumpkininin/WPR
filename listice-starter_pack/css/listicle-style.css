@@ -7,7 +7,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center ;
-
+    
     
     
     
@@ -18,39 +18,91 @@ h1{
     color: white;
     font-family: "Robot Slab";
     width:780px;
-    font-size: 36opx;
+    font-size: 36px;
     text-align: center;
     
     
     
 }
-#author{
-    
-    
-    justify-items: center;
-    margin-top:-50px;
-    height:150px;
-    
-    text-align: center;
-}
-.avt{
-    
+#profile {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width:100%;
+  }
+  
+  #profile-pic {
+    background-image: url("../images/vrk.png");
+    background-size: cover;
+    background-position:center;
     border-radius: 100%;
+    width: 100px;
+    height: 100px;
     margin-top: -50px;
-    
-}
-.name{
-    font-family:'Source Sans Pro';
-    font-size:18px;
-    font-weight:bold;
-    margin:0;
-}
-.update-time{
-    font-style: italic;
-    margin:0;
+    border: 1px solid white;
+  }
+  
+  #profile-text {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+    color: rgb(51, 51, 51);
+    line-height: 24px;
     padding-bottom: 10px;
     border-bottom: 2px solid #e6e6e6;
-    
-    display: inline;
-
+  }
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+#body-container{
+    width: 66.67%;
+    position:relative;
+    margin-top: 60px;
+}
+.title{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight:bold;
+    color: rgb(51,51,51);
+}
+.number{
+    position:absolute;
+    right:40px;
+    font-family: "Roboto Slab", serif;
+    font-size: 36px;
+    font-weight: bold;
+    color:  rgba(0, 0, 0, 0.25);
+}
+.line-break{
+    height: 20px;
+}
+.items-container-number {
+    position:absolute;
+    right:100%;
+}
+.content{
+    font-family: 'Source Sans Pro', serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: rgb(51,51,51);
+}
+.recommendation{
+    font-weight: bold;
+}
+img{
+    width:100%;
+}
+a {
+    color: #42b4d6;
+    text-decoration: none;
+    font-weight:normal;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 18px;
+  }
+  
+  a:hover {
+    text-decoration:underline;
+  }
