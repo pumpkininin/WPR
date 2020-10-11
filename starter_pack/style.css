@@ -1,0 +1,131 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+html {
+    display: table;
+    margin: auto;
+}
+body{
+    width: 700px;
+    
+    
+    
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    justify-content: space-between;
+    justify-items: center;
+    border: 1px #ccc solid;
+    
+}
+#course-name{
+    font-family: 'Helvetica',sans-serif;
+    font-size: 32px;
+    font-weight:bold;
+    color: #ee3322;
+}
+.mern-stack{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+em{
+    display: flex;
+    background-color: #ffee00;
+    border-radius: 100%;
+    font-weight: bold;
+    transform: rotate(-30deg);
+    font-size: 18px;
+    height: 50px;
+    width: 50px;   
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-style: normal;
+}
+#quiz-name{
+    height: 425px;
+    width: 100%;
+    background-image: url("images/background.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    display: flex;
+    flex-wrap: wrap;
+    font-size:60px;
+    color: black;
+    font-family: 'Pangolin', sans-serif;
+    padding:10px;
+    background-color: rgba(255, 255, 255,0.9);
+    background-size: cover;
+    max-width: 75%;
+    height: 80px;
+    margin: auto;
+    
+}
+.line-break{
+    height: 18px;
+}
+.author{
+    font-size: 14px;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+}
+h3{
+    margin: 0;
+}
+p{
+    margin:0;
+    font-size: 18px;
+}
+.start-quiz{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.start{
+    
+    text-align: center;
+}
+.btn-start{
+    height: 54px;
+    background-color:#2196f3;
+    color: white;
+    font-size: 18px;
+    
+    
+}
+.btn-start:hover{
+    background-color: #0d8bf2;
+}
+.hidden{
+    display: none !important;
+}
+input{
+    background-color: #f1f1f1;
+    align-items:center;
+}
+span{
+    
+    display: block;
+    background-color: #f1f1f1;
+    position: relative;
+    padding:15px 0 15px 0;
+    font-size:18px;
+    margin: 1px 0 1px 0;
+    
+    
+}
+
