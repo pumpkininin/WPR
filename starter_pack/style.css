@@ -81,6 +81,9 @@ h1{
     font-weight: normal;
     text-align: center;
 }
+h2{
+    margin: 0;
+}
 h3{
     margin: 0;
 }
@@ -88,27 +91,30 @@ p{
     margin:0;
     font-size: 18px;
 }
-.start-quiz{
-    background-color: #f1f1f1;
-    display: flex;
-    justify-items: center;
-    flex-direction: column;
-    align-items: center;
-}
+
 .start{
     
     text-align: center;
 }
-.btn-start{
+button{
     height: 54px;
-    background-color:#2196f3;
     color: white;
     font-size: 18px;
     
     
 }
-.btn-start:hover{
+.btn{
+    background-color:#2196f3;
+}
+
+.btn:hover{
     background-color: #0d8bf2;
+}
+.btn-submit{
+    background-color: #4CAF50;
+}
+.btn-submit:hover{
+    background-color: #46a049 !important;
 }
 .hidden{
     display: none !important;
@@ -128,4 +134,27 @@ span{
     
     
 }
+span:hover{
+    background-color: #ddd;
+}
+.selected{
+    background-color: #ddd;
+}
 
+
+.break-question{
+    height: 30px;
+}
+.container-button{
+    background-color: #f1f1f1;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+}
+.correct{
+    background-color: #d4edda !important;
+}
+.wrong{
+    background-color: #f8d7da !important;
+}
